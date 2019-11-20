@@ -6,6 +6,6 @@ while(1):
     str=str.strip()
     print str
 
-    response= requests.get('https://www.adithyabhat.com/#/' +str)
+    response= requests.get('https://www.example.com/' +str)
     if (response.status_code ==200):
         print "Success"
